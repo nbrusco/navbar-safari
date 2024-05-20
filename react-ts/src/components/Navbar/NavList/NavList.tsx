@@ -20,9 +20,8 @@ const NavList = () => {
   const [openUserMenu, setOpenUserMenu] = useState(false);
 
   return (
-    <ul className="my-2 flex flex-col [&>*]:text-white [&>li>a]:font-poppins [&>li]:py-4 hover:[&>li>a]:text-yellow-500 [&>li>a]:transition-colors ml-2 mt-4 gap-8
-    tablet:ml-0 tablet:mt-2 [&>li>a]:tablet:text-base tablet:mb-0 tablet:flex-row tablet:items-center tablet:gap-11
-    hd:gap-40">
+    <ul className="my-2 flex flex-row [&>*]:text-white [&>li>a]:font-poppins [&>li]:py-4 hover:[&>li>a]:text-yellow-500 [&>li>a]:transition-colors ml-2 mt-4 gap-8
+    tablet:ml-0 tablet:mt-2 [&>li>a]:tablet:text-base tablet:mb-0">
       <div className="flex flex-col tablet:flex-row font-gotham font-light ">
         <Menu
           open={openGamesMenu}
