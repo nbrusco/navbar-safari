@@ -25,7 +25,7 @@ const NavBar = () => {
 
   return (
     <nav className="relative rounded-none px-3 tablet:px-6 tablet:pb-2 pt-9 bg-[#0D0D0D] border-[#0D0D0D] z-10">
-      <div className="flex items-center justify-center">
+      <div className="flex w-full items-center justify-center">
           <NavList />
       </div>
     </nav>

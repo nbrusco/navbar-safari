@@ -20,8 +20,8 @@ const NavList = () => {
   const [openUserMenu, setOpenUserMenu] = useState(false);
 
   return (
-    <ul className="my-2 flex flex-row [&>*]:text-white [&>li>a]:font-poppins [&>li]:py-4 hover:[&>li>a]:text-yellow-500 [&>li>a]:transition-colors ml-2 mt-4 gap-8
-    tablet:ml-0 tablet:mt-2 [&>li>a]:tablet:text-base tablet:mb-0">
+    <ul className="my-2 flex flex-row [&>*]:text-white [&>li>a]:font-poppins [&>li]:py-4 hover:[&>li>a]:text-yellow-500 [&>li>a]:transition-colors gap-8
+    ml-0 mt-2 text-base mb-0">
       <div className="flex flex-row font-gotham font-light ">
         <Menu
           open={openGamesMenu}
@@ -37,7 +37,7 @@ const NavList = () => {
             <button
               className={`flex text-white bg-black font-gotham font-light
               gap-1 w-1
-              tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
+              min-w-max text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
               hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
               3xl:text-xl`}
             >
@@ -46,7 +46,7 @@ const NavList = () => {
                 strokeWidth={4}
                 className={`
                 h-2.5 w-2.5
-                tablet:h-2.5 tablet:w-2.5
+                h-2.5 w-2.5
                 hd:h-4 hd:w-4
                 3xl:h-5 3xl:w-5
                 transition-transform ${openGamesMenu ? 'rotate-180' : ''}`}
@@ -89,7 +89,7 @@ const NavList = () => {
             <button
               className={`flex text-white bg-black font-gotham font-light
             gap-1 w-1
-            tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
+            min-w-max text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
             hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
             3xl:text-xl
             `}
@@ -99,7 +99,7 @@ const NavList = () => {
                 strokeWidth={4}
                 className={`
                 h-2.5 w-2.5
-                tablet:h-2.5 tablet:w-2.5
+                h-2.5 w-2.5
                 hd:h-4 hd:w-4
                 3xl:h-5 3xl:w-5
                 transition-transform ${openGourmetMenu ? 'rotate-180' : ''}`}
@@ -148,7 +148,7 @@ const NavList = () => {
             <button
               className={`flex text-white bg-black font-gotham font-light
             gap-1 w-1
-            tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
+            min-w-max text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
             hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
             3xl:text-xl
             `}
@@ -158,7 +158,7 @@ const NavList = () => {
                 strokeWidth={4}
                 className={`
                 h-2.5 w-2.5
-                tablet:h-2.5 tablet:w-2.5
+                h-2.5 w-2.5
                 hd:h-4 hd:w-4
                 3xl:h-5 3xl:w-5
                 transition-transform ${openBirthdayMenu ? 'rotate-180' : ''}`}
@@ -185,29 +185,29 @@ const NavList = () => {
         </Menu>
       </div>
       <div className="flex flex-row ">
-        <Link to={paths.branches} className='w-full'>
           <button
             className={`flex text-white bg-black font-gotham font-light
             gap-1 w-1
-            tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
+            min-w-max text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
             hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
             3xl:text-xl
             `}
           >
+            <Link to={paths.branches} className='w-full'>
             LOCALES
-          </button>
         </Link>
-        <Link to={paths.contact} className='w-full'>
+          </button>
           <button
             className={`flex text-white bg-black font-gotham font-light
             gap-1 w-1
-            tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
+            min-w-max text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
             hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
             3xl:text-xl`}
           >
+            <Link to={paths.contact} className='w-full'>
             CONTACTO
-          </button>
         </Link>
+          </button>
       
           <Menu
             open={openUserMenu}
@@ -224,7 +224,7 @@ const NavList = () => {
               <button
                 className="flex rounded-full text-black bg-white hover:text-white hover:bg-black font-gotham font-light
               gap-1 w-1
-              tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
+              min-w-max text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
               hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
               3xl:text-xl"
               >
@@ -233,7 +233,7 @@ const NavList = () => {
                   strokeWidth={4}
                   className={`
                 h-2.5 w-2.5
-                tablet:h-2.5 tablet:w-2.5
+                h-2.5 w-2.5
                 hd:h-4 hd:w-4
                 3xl:h-5 3xl:w-5
                 transition-transform `}
@@ -253,7 +253,7 @@ const NavList = () => {
             <button
               className="flex rounded-full text-black bg-white hover:text-white hover:bg-black font-gotham font-light
               gap-1 w-1
-              tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
+              min-w-max text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
               hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
               3xl:text-xl"
             >
