@@ -40,7 +40,7 @@ const NavList = () => {
             <Button
               variant="text"
               className={`flex items-center text-white bg-black font-gotham font-light
-              gap-1 min-w-[120px] w-1
+              gap-1 w-1
               tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
               hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
               3xl:text-xl`}
@@ -93,7 +93,7 @@ const NavList = () => {
             <Button
               variant="text"
               className={`flex items-center text-white bg-black font-gotham font-light
-            gap-1 min-w-[120px] w-1
+            gap-1 w-1
             tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
             hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
             3xl:text-xl
@@ -153,7 +153,7 @@ const NavList = () => {
             <Button
               variant="text"
               className={`flex items-center text-white bg-black font-gotham font-light
-            gap-1 min-w-[120px] w-1
+            gap-1 w-1
             tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
             hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
             3xl:text-xl
@@ -191,11 +191,11 @@ const NavList = () => {
         </Menu>
       </div>
       <div className="flex flex-col tablet:flex-row gap-2 tablet:gap-4 hd:gap-6 3xl:gap-11">
-        <Link to={paths.branches} className='min-w-[120px] w-1 tablet:min-w-max'>
+        <Link to={paths.branches} className=''>
           <Button
             variant="text"
             className={`flex items-center text-white bg-black font-gotham font-light
-            gap-1 min-w-[120px] w-1
+            gap-1 w-1
             tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
             hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
             3xl:text-xl
@@ -204,11 +204,11 @@ const NavList = () => {
             LOCALES
           </Button>
         </Link>
-        <Link to={paths.contact} className='min-w-[120px] w-1 tablet:min-w-max'>
+        <Link to={paths.contact} className=''>
           <Button
             variant="text"
             className={`flex items-center text-white bg-black font-gotham font-light
-            gap-1 min-w-[120px] w-1
+            gap-1 w-1
             tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
             hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
             3xl:text-xl`}
@@ -232,7 +232,7 @@ const NavList = () => {
               <Button
                 variant="text"
                 className="flex items-center rounded-full text-black bg-white hover:text-white hover:bg-black font-gotham font-light
-              gap-1 min-w-[120px] w-1
+              gap-1 w-1
               tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
               hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
               3xl:text-xl"
@@ -258,11 +258,11 @@ const NavList = () => {
             </MenuList>
           </Menu>
        
-          <Link to={paths.login} className='min-w-[120px] w-1 tablet:min-w-max'>
+          <Link to={paths.login} className=''>
             <Button
               variant="text"
               className="flex items-center rounded-full text-black bg-white hover:text-white hover:bg-black font-gotham font-light
-              gap-1 min-w-[120px] w-1
+              gap-1 w-1
               tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
               hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
               3xl:text-xl"
