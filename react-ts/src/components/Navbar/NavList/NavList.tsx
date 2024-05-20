@@ -189,55 +189,6 @@ const NavList = () => {
             </Link>
           </MenuList>
         </Menu>
-        {/* <Menu
-          open={openCinemaMenu}
-          placement="bottom-start"
-          handler={setOpenCinemaMenu}
-          allowHover
-          animate={{
-            mount: { scale: 1, y: 0 },
-            unmount: { scale: 0, y: 25 },
-          }}
-        >
-          <MenuHandler>
-            <Button
-              variant="text"
-              className={`flex items-center text-white bg-black font-gotham font-light
-              gap-1 min-w-[120px] w-1
-              tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
-              hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
-              3xl:text-xl
-              ${currentPath.includes(paths.cinemas)
-                  ? 'text-zona-light-purple font-semibold'
-                  : 'text-white'
-                } hover:text-black hover:bg-white`}
-            >
-              CINES
-              <ChevronDownIcon
-                strokeWidth={4}
-                className={`
-                h-2.5 w-2.5
-                tablet:h-2.5 tablet:w-2.5
-                hd:h-4 hd:w-4
-                3xl:h-5 3xl:w-5
-                transition-transform ${openCinemaMenu ? 'rotate-180' : ''}`}
-              />
-            </Button>
-          </MenuHandler>
-          <MenuList className="rounded-2xl hd:rounded-3xl !rounded-ss-none px-3 py-2 hd:p-3">
-            <MenuItem className="font-gotham text-black font-bold
-              text-xs hd:text-[17px]
-              pl-1.5 p-0.5 hd:pl-1.5 hd:pt-[9px] hd:pb-2 hd:pr-3">
-              <Link to={paths.cinemas}>ENCONTRÁ TU PELÍCULA</Link>
-            </MenuItem>
-            <hr className="bg-black pt-[1px] mx-0.5 hd:mx-2 my-1" />
-            <MenuItem className="font-gotham text-black
-              text-xs hd:text-[17px]
-              pl-1.5 p-0.5 hd:pl-1.5 hd:pt-[9px] hd:pb-2 hd:pr-3">
-              EXPERIENCIA ZONA
-            </MenuItem>
-          </MenuList>
-        </Menu> */}
       </div>
       <div className="flex flex-col tablet:flex-row gap-2 tablet:gap-4 hd:gap-6 3xl:gap-11">
         <Link to={paths.branches} className='min-w-[120px] w-1 tablet:min-w-max'>

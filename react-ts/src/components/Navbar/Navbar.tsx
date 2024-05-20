@@ -24,9 +24,8 @@ const NavBar = () => {
   }, []);
 
   return (
-    <Navbar className="relative max-w-none rounded-none px-3 tablet:px-6 tablet:pb-2 pt-9 bg-[#0D0D0D] border-[#0D0D0D] z-10">
-      <div className="flex items-center justify-center mx-auto
-      tablet:gap-6 hd:gap-10 3xl:gap-[78px]">
+    <Navbar className="relative w-full max-w-none rounded-none px-3 tablet:px-6 tablet:pb-2 pt-9 bg-[#0D0D0D] border-[#0D0D0D] z-10">
+      <div className="flex items-center justify-center mx-auto">
         <Link to={paths.home} className='min-w-[96px] max-w-[250px] w-20 lg:w-36 hd:w-44'>
           <img
             src={`/assets/logos/asd.jpg`}
