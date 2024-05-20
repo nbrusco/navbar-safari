@@ -6,7 +6,6 @@ import {
   MenuHandler,
   MenuList,
   MenuItem,
-  Button,
 } from '@material-tailwind/react';
 
 import { ChevronDownIcon } from '@heroicons/react/24/outline';
@@ -18,7 +17,6 @@ const NavList = () => {
   const [openGamesMenu, setOpenGamesMenu] = useState(false);
   const [openGourmetMenu, setOpenGourmetMenu] = useState(false);
   const [openBirthdayMenu, setOpenBirthdayMenu] = useState(false);
-  const [openCinemaMenu, setOpenCinemaMenu] = useState(false);
   const [openUserMenu, setOpenUserMenu] = useState(false);
 
   return (
@@ -37,8 +35,7 @@ const NavList = () => {
           allowHover
         >
           <MenuHandler>
-            <Button
-              variant="text"
+            <button
               className={`flex items-center text-white bg-black font-gotham font-light
               gap-1 w-1
               tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
@@ -55,7 +52,7 @@ const NavList = () => {
                 3xl:h-5 3xl:w-5
                 transition-transform ${openGamesMenu ? 'rotate-180' : ''}`}
               />
-            </Button>
+            </button>
           </MenuHandler>
           <MenuList className="rounded-2xl hd:rounded-3xl !rounded-ss-none px-3 py-2 hd:p-3">
             <Link
@@ -90,8 +87,7 @@ const NavList = () => {
           allowHover
         >
           <MenuHandler>
-            <Button
-              variant="text"
+            <button
               className={`flex items-center text-white bg-black font-gotham font-light
             gap-1 w-1
             tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
@@ -109,7 +105,7 @@ const NavList = () => {
                 3xl:h-5 3xl:w-5
                 transition-transform ${openGourmetMenu ? 'rotate-180' : ''}`}
               />
-            </Button>
+            </button>
           </MenuHandler>
           <MenuList className="rounded-2xl hd:rounded-3xl !rounded-ss-none px-3 py-2 hd:p-3">
             <Link to={paths.gourmet}>
@@ -150,8 +146,7 @@ const NavList = () => {
           allowHover
         >
           <MenuHandler>
-            <Button
-              variant="text"
+            <button
               className={`flex items-center text-white bg-black font-gotham font-light
             gap-1 w-1
             tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
@@ -169,7 +164,7 @@ const NavList = () => {
                 3xl:h-5 3xl:w-5
                 transition-transform ${openBirthdayMenu ? 'rotate-180' : ''}`}
               />
-            </Button>
+            </button>
           </MenuHandler>
           <MenuList className="rounded-2xl hd:rounded-3xl !rounded-ss-none px-3 py-2 hd:p-3">
             <Link to={paths.birthday}>
@@ -192,8 +187,7 @@ const NavList = () => {
       </div>
       <div className="flex flex-col tablet:flex-row gap-2 tablet:gap-4 hd:gap-6 3xl:gap-11">
         <Link to={paths.branches} className=''>
-          <Button
-            variant="text"
+          <button
             className={`flex items-center text-white bg-black font-gotham font-light
             gap-1 w-1
             tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
@@ -202,11 +196,10 @@ const NavList = () => {
             `}
           >
             LOCALES
-          </Button>
+          </button>
         </Link>
         <Link to={paths.contact} className=''>
-          <Button
-            variant="text"
+          <button
             className={`flex items-center text-white bg-black font-gotham font-light
             gap-1 w-1
             tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
@@ -214,7 +207,7 @@ const NavList = () => {
             3xl:text-xl`}
           >
             CONTACTO
-          </Button>
+          </button>
         </Link>
       
           <Menu
@@ -229,8 +222,7 @@ const NavList = () => {
           >
             <MenuHandler>
 
-              <Button
-                variant="text"
+              <button
                 className="flex items-center rounded-full text-black bg-white hover:text-white hover:bg-black font-gotham font-light
               gap-1 w-1
               tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
@@ -245,9 +237,9 @@ const NavList = () => {
                 tablet:h-2.5 tablet:w-2.5
                 hd:h-4 hd:w-4
                 3xl:h-5 3xl:w-5
-                transition-transform ${openCinemaMenu ? 'rotate-180' : ''}`}
+                transition-transform `}
                 />
-              </Button>
+              </button>
             </MenuHandler>
             <MenuList className="rounded-2xl hd:rounded-3xl !rounded-se-none px-3 py-2 hd:p-3">
               <MenuItem  className="font-gotham text-black font-medium
@@ -259,8 +251,7 @@ const NavList = () => {
           </Menu>
        
           <Link to={paths.login} className=''>
-            <Button
-              variant="text"
+            <button
               className="flex items-center rounded-full text-black bg-white hover:text-white hover:bg-black font-gotham font-light
               gap-1 w-1
               tablet:min-w-max tablet:text-xs tablet:pl-[7.5px] tablet:pr-[7.5px] tablet:py-[3px] tablet:gap-[5px]
@@ -268,7 +259,7 @@ const NavList = () => {
               3xl:text-xl"
             >
               INGRESAR
-            </Button>
+            </button>
           </Link>
       </div>
     </ul >
