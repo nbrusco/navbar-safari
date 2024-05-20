@@ -26,19 +26,12 @@ const NavBar = () => {
   return (
     <Navbar className="relative w-full rounded-none px-3 tablet:px-6 tablet:pb-2 pt-9 bg-[#0D0D0D] border-[#0D0D0D] z-10">
       <div className="flex items-center justify-center mx-auto">
-        {/* <Link to={paths.home} className='min-w-[96px] max-w-[250px] w-20 lg:w-36 hd:w-44'>
-          <img
-            src={`/assets/logos/asd.jpg`}
-            alt="Logo Zona"
-            className="w-full tablet:-mb-8 hd:-mb-12 3xl:-mb-16 min-w-[96px] max-w-[250px]"
-          />
-        </Link> */}
         <div className="hidden tablet:block">
           <NavList />
         </div>
         <IconButton
           variant="text"
-          className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent tablet:hidden"
+          className="h-6 w-6 hover:bg-transparent focus:bg-transparent active:bg-transparent tablet:hidden"
           ripple={false}
           onClick={() => setOpenNav(!openNav)}
         >
@@ -49,9 +42,9 @@ const NavBar = () => {
           )}
         </IconButton>
       </div>
-      <Collapse open={openNav}>
+      {/* <Collapse open={openNav}>
         <NavList />
-      </Collapse>
+      </Collapse> */}
     </Navbar>
   );
 };
