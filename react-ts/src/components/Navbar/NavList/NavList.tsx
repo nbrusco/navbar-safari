@@ -22,7 +22,7 @@ const NavList = () => {
   return (
     <ul className="my-2 flex flex-row [&>*]:text-white [&>li>a]:font-poppins [&>li]:py-4 hover:[&>li>a]:text-yellow-500 [&>li>a]:transition-colors ml-2 mt-4 gap-8
     tablet:ml-0 tablet:mt-2 [&>li>a]:tablet:text-base tablet:mb-0">
-      <div className="flex flex-col tablet:flex-row font-gotham font-light ">
+      <div className="flex flex-row font-gotham font-light ">
         <Menu
           open={openGamesMenu}
           placement="bottom-start"
@@ -184,7 +184,7 @@ const NavList = () => {
           </MenuList>
         </Menu>
       </div>
-      <div className="flex flex-col tablet:flex-row ">
+      <div className="flex flex-row ">
         <Link to={paths.branches} className='w-full'>
           <button
             className={`flex text-white bg-black font-gotham font-light
