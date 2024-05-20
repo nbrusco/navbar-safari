@@ -37,7 +37,7 @@ const NavList = () => {
             <button
               className={`flex text-white bg-black font-gotham font-light
               gap-1 w-1
-              text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
+              min-w-[150px] text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
               hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
               3xl:text-xl`}
             >
@@ -89,7 +89,7 @@ const NavList = () => {
             <button
               className={`flex text-white bg-black font-gotham font-light
             gap-1 w-1
-            text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
+            min-w-[150px] text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
             hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
             3xl:text-xl
             `}
@@ -148,7 +148,7 @@ const NavList = () => {
             <button
               className={`flex text-white bg-black font-gotham font-light
             gap-1 w-1
-            text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
+            min-w-[150px] text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
             hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
             3xl:text-xl
             `}
@@ -188,7 +188,7 @@ const NavList = () => {
           <button
             className={`flex text-white bg-black font-gotham font-light
             gap-1 w-1
-            text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
+            min-w-[150px] text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
             hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
             3xl:text-xl
             `}
@@ -200,7 +200,7 @@ const NavList = () => {
           <button
             className={`flex text-white bg-black font-gotham font-light
             gap-1 w-1
-            text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
+            min-w-[150px] text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
             hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
             3xl:text-xl`}
           >
@@ -224,7 +224,7 @@ const NavList = () => {
               <button
                 className="flex rounded-full text-black bg-white hover:text-white hover:bg-black font-gotham font-light
               gap-1 w-1
-              text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
+              min-w-[150px] text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
               hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
               3xl:text-xl"
               >
@@ -253,7 +253,7 @@ const NavList = () => {
             <button
               className="flex rounded-full text-black bg-white hover:text-white hover:bg-black font-gotham font-light
               gap-1 w-1
-              text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
+              min-w-[150px] text-xs pl-[7.5px] pr-[7.5px] py-[3px] gap-[5px]
               hd:text-base hd:pl-[10px] hd:pr-[15px] hd:py-[10px] hd:gap-[8px]
               3xl:text-xl"
             >
